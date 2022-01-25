@@ -4,13 +4,16 @@
   "description": "API REST fournissant des données sur les jeux video pour le cours de API - NodeJs",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "plarrat",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.2",
     "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15",
     "prettier": "^2.5.1"
   }
 }
