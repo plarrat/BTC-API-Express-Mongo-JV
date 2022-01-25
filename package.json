@@ -1,0 +1,14 @@
+{
+  "name": "api-jv",
+  "version": "1.0.0",
+  "description": "API REST fournissant des données sur les jeux video pour le cours de API - NodeJs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "plarrat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
